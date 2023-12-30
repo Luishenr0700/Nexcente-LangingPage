@@ -1,0 +1,9 @@
+/* CSS Global */
+@import "./global/global.css";
+@import "./global/header.css";
+@import "./global/footer.css";
+
+/* Utillits */
+@import "./utilities/colors.css";
+@import "./utilities/fonts.css";
+@import "./utilities/componets.css";

@@ -1,0 +1,40 @@
+/* Headline */
+.headline-1 {
+  font: 600 4rem/4.75rem "Inter", sans-serif;
+}
+.headline-2 {
+  font: 600 2.25rem/2.75rem "Inter", sans-serif;
+}
+.headline-3 {
+  font: 700 1.75rem/2.25rem "Inter", sans-serif;
+}
+.headline-4 {
+  font: 600 1.25rem/1.75rem "Inter", sans-serif;
+}
+
+/* Body */
+.body-regular-1 {
+  font: 400 1.125rem/1.75rem "Inter", sans-serif;
+}
+.body-regular-2 {
+  font: 400 1rem/1.5rem "Inter", sans-serif;
+}
+.body-regular-3 {
+  font: 400 0.875rem/1.25rem "Inter", sans-serif;
+}
+.body-regular-4 {
+  font: 400 0.75rem/1rem "Inter", sans-serif;
+}
+
+.body-medium-1 {
+  font: 500 1.125rem/1.75rem "Inter", sans-serif;
+}
+.body-medium-2 {
+  font: 500 1rem/1.5rem "Inter", sans-serif;
+}
+.body-medium-3 {
+  font: 500 0.875rem/1.25rem "Inter", sans-serif;
+}
+.body-medium-4 {
+  font: 500 0.75rem/1rem "Inter", sans-serif;
+}

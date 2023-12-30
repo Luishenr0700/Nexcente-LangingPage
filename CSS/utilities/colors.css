@@ -1,0 +1,113 @@
+:root {
+  /* Neutral */
+  --black: #263238;
+  --D_grey: #4d4d4d;
+  --grey: #717171;
+  --L_grey: #89939e;
+  --grey-blue: #abbed1;
+  --silver: #f5f7fa;
+  --white: #ffffff;
+
+  /* Emphasis */
+  --primary: #28cb8b;
+  --secondary: #263238;
+  --info: #2194f3;
+
+  /* Color Shade */
+  --shede_1: #43a046;
+  --shede_2: #388e3b;
+  --shede_3: #237d31;
+  --shede_4: #1b5e1f;
+  --shede_5: #103e13;
+
+  /* Color Tint */
+  --tint_1: #66bb69;
+  --tint_2: #81c784;
+  --tint_3: #a5d6a7;
+  --tint_4: #c8e6c9;
+  --tint_5: #e8f5e9;
+
+  /* Action */
+  --warning: #fbc02d;
+  --error: #e53835;
+  --susses: #2e7d31;
+}
+
+/* Neutral */
+.black {
+  color: var(--black);
+}
+.D_grey {
+  color: var(--D_grey);
+}
+.grey {
+  color: var(--grey);
+}
+.L_grey {
+  color: var(--L_grey);
+}
+.grey-blue {
+  color: var(--grey-blue);
+}
+.silver {
+  color: var(--silver);
+}
+.white {
+  color: var(--white);
+}
+
+/* Emphasis */
+.primary {
+  color: var(--primary);
+}
+.secondary {
+  color: var(--secondary);
+}
+.info {
+  color: var(--info);
+}
+
+/* Color Shade */
+.shade_1 {
+  color: var(--shede_1);
+}
+.shade_2 {
+  color: var(--shede_2);
+}
+.shade_3 {
+  color: var(--shede_3);
+}
+.shade_4 {
+  color: var(--shede_4);
+}
+.shade_5 {
+  color: var(--shede_5);
+}
+
+/* Color Tint */
+.tint_1 {
+  color: var(--tint_1);
+}
+.tint_2 {
+  color: var(--tint_2);
+}
+.tint_3 {
+  color: var(--tint_3);
+}
+.tint_4 {
+  color: var(--tint_4);
+}
+.tint_5 {
+  color: var(--tint_5);
+}
+
+/* Action */
+.warning {
+  color: var(--warning);
+}
+.error {
+  color: var(--error);
+}
+.susses {
+  color: var(--susses);
+}
