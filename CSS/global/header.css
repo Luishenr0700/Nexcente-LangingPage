@@ -1,0 +1,13 @@
+.header-bg{
+  background-color: var(--silver);
+}
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px;
+}
+ul.header-menu{
+  display: flex;
+  gap: 40px;
+}
