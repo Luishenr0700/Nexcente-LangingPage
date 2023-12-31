@@ -5,9 +5,90 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 24px;
   padding: 24px;
+  height: 8vh;
 }
 ul.header-menu{
   display: flex;
   gap: 40px;
+}
+.header-user a{
+  margin-right: 8px;
+}
+
+/* Menu Mobile */
+.mobile-menu{
+  display: none;
+  cursor: pointer;
+}
+.mobile-menu div{
+  width: 32px;
+  height: 2px;
+  background-color: var(--primary);
+  margin: 8px;
+  transition: .3s;
+}
+
+@media (max-width: 1000px){
+  body{
+    overflow-x: hidden;
+  }
+  .header-user{
+    display: none;
+  }
+  .mobile-menu{
+    display: block;
+  }
+  .mobile{
+    display: flex;
+    gap: 30px;
+  }
+  .mobile img{
+    cursor: pointer;
+  }
+  ul.header-menu{
+    position: absolute;
+    width: 50vw;
+    height: auto;
+    top: 8vh;
+    right: 0;
+    padding: 20px;
+    background-color: var(--silver);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in;
+    z-index: 3;
+  }
+  ul.header-menu li{
+    opacity: 0;
+  }
+  ul.active{
+    transform: translateX(0);
+  }
+
+  @keyframes navLinkFade {
+    from {
+      opacity: 0;
+      transform: translateX(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+}
+.mobile-menu.active .line1{
+  transform: rotate(-45deg) translate(-8px, 8px);
+  
+}
+.mobile-menu.active .line2{
+  opacity: 0;
+}
+.mobile-menu.active .line3{
+  transform: rotate(45deg) translate(-5px, -7px);
+  
 }
