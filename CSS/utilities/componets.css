@@ -1,5 +1,5 @@
 .content{
-  max-width: 1152px;
+  max-width: 1300px;
   padding-left: 24px;
   padding-right: 24px;
   margin-left: auto;
@@ -12,4 +12,6 @@
   color: var(--white);
   background-color: var(--primary);
   border-radius: 6px;
+  cursor: pointer;
+  font: 500 0.875rem/1.25rem "Inter", sans-serif;
 }

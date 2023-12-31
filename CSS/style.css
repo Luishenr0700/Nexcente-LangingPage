@@ -7,3 +7,6 @@
 @import "./utilities/colors.css";
 @import "./utilities/fonts.css";
 @import "./utilities/componets.css";
+
+/* Home */
+@import "./home/intro.css"

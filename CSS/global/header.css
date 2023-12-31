@@ -18,6 +18,9 @@ ul.header-menu{
 }
 
 /* Menu Mobile */
+.mobile{
+  display: none;
+}
 .mobile-menu{
   display: none;
   cursor: pointer;

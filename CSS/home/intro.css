@@ -1,0 +1,35 @@
+.intro-bg {
+  background-color: var(--silver);
+}
+
+.intro {
+  display: grid;
+  grid-template-columns: 7fr 5fr;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  gap: 80px;
+  padding: 40px;
+}
+.intro-text {
+  display: grid;
+  justify-items: start;
+  gap: 16px;
+}
+@media (max-width: 1000px) {
+  .intro {
+    gap: 32px;
+  }
+  .intro img {
+    width: 300px;
+  }
+}
+@media (max-width: 800px) {
+  .intro img{
+    grid-row: 1;
+    width: 250px;
+  }
+  .intro{
+    grid-template-columns: 1fr;
+  }
+}

@@ -38,3 +38,16 @@
 .body-medium-4 {
   font: 500 0.75rem/1rem "Inter", sans-serif;
 }
+
+@media (max-width: 1000px){
+  .headline-1{
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+}
+@media (max-width: 800px){
+  .headline-1{
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
