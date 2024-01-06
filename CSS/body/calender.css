@@ -1,0 +1,33 @@
+.calender {
+  display: grid;
+  grid-template-columns: 5fr 7fr;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.calender-content h2 {
+  max-width: 25ch;
+  margin-bottom: 16px;
+}
+.calender-content p {
+  max-width: 70ch;
+  margin-bottom: 32px;
+}
+@media (max-width: 1000px) {
+  .calender img {
+    width: 350px;
+  }
+}
+@media (max-width: 800px) {
+  .calender img {
+    grid-row: 1;
+    width: 300px;
+  }
+  .calender {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
