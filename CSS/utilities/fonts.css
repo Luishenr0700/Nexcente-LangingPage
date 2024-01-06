@@ -47,6 +47,9 @@
   .headline-2{
     font-size: 2rem;
   }
+  .headline-3{
+    font-size: 1.5rem;
+  }
 }
 @media (max-width: 800px){
   .headline-1{
@@ -55,6 +58,10 @@
   }
   .headline-2{
     font-size: 1.5rem;
+    line-height: 2rem;
+  }
+  .headline-3{
+    font-size: 1.2rem;
     line-height: 2rem;
   }
 }
